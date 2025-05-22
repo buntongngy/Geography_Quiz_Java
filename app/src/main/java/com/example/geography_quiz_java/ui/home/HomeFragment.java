@@ -63,9 +63,7 @@ public class HomeFragment extends Fragment {
         List<ExplorerItem> items = new ArrayList<>();
         items.add(new ExplorerItem("Flag Quiz", com.example.geography_quiz_java.R.drawable.ic_flag));
         items.add(new ExplorerItem("Capital City", com.example.geography_quiz_java.R.drawable.ic_city));
-        items.add(new ExplorerItem("Country Currency", com.example.geography_quiz_java.R.drawable.ic_exchange));
         items.add(new ExplorerItem("Country Language", com.example.geography_quiz_java.R.drawable.ic_language));
-        items.add(new ExplorerItem("Country Shape", com.example.geography_quiz_java.R.drawable.ic_shape));
         items.add(new ExplorerItem("Landmark", com.example.geography_quiz_java.R.drawable.ic_landmark));
         return items;
     }
